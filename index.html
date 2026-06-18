@@ -17,17 +17,22 @@
       color: #555;
       margin-bottom: 25px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      max-width: 900px;
+    h2 {
+      margin-top: 28px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
     }
     a {
-      display: block;
-      padding: 16px;
+      display: inline-block;
+      padding: 10px 14px;
       border: 1px solid #ddd;
-      border-radius: 8px;
+      border-radius: 6px;
       background: #f8f9fa;
       color: #0645ad;
       text-decoration: none;
@@ -42,19 +47,67 @@
 <body>
 
   <h1>O-D Sankeys for Top 10 Bottlenecks</h1>
-  <p>Select a bottleneck rank folder to view the Sankey diagrams.</p>
+  <p>Select a county-level or ZIP-code-level Sankey diagram.</p>
 
-  <div class="grid">
-    <a href="R1/">R1 Sankey Diagrams</a>
-    <a href="R2/">R2 Sankey Diagrams</a>
-    <a href="R3/">R3 Sankey Diagrams</a>
-    <a href="R4/">R4 Sankey Diagrams</a>
-    <a href="R5/">R5 Sankey Diagrams</a>
-    <a href="R6/">R6 Sankey Diagrams</a>
-    <a href="R7/">R7 Sankey Diagrams</a>
-    <a href="R8/">R8 Sankey Diagrams</a>
-    <a href="R9/">R9 Sankey Diagrams</a>
-    <a href="R10/">R10 Sankey Diagrams</a>
+  <h2>Rank 1</h2>
+  <div class="links">
+    <a href="R1/county_od_sankey.html">County Sankey</a>
+    <a href="R1/zip_od_sankey.html">ZIP Code Sankey</a>
+    <a href="R1/RRank1.ipynb">Notebook</a>
+  </div>
+
+  <h2>Rank 2</h2>
+  <div class="links">
+    <a href="R2/county_od_sankey.html">County Sankey</a>
+    <a href="R2/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 3</h2>
+  <div class="links">
+    <a href="R3/county_od_sankey3.html">County Sankey</a>
+    <a href="R3/zip_od_sankey3.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 4</h2>
+  <div class="links">
+    <a href="R4/county_od_sankey4.html">County Sankey</a>
+    <a href="R4/zip_od_sankey4.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 5</h2>
+  <div class="links">
+    <a href="R5/county_od_sankey.html">County Sankey</a>
+    <a href="R5/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 6</h2>
+  <div class="links">
+    <a href="R6/county_od_sankey.html">County Sankey</a>
+    <a href="R6/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 7</h2>
+  <div class="links">
+    <a href="R7/county_od_sankey.html">County Sankey</a>
+    <a href="R7/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 8</h2>
+  <div class="links">
+    <a href="R8/county_od_sankey.html">County Sankey</a>
+    <a href="R8/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 9</h2>
+  <div class="links">
+    <a href="R9/county_od_sankey.html">County Sankey</a>
+    <a href="R9/zip_od_sankey.html">ZIP Code Sankey</a>
+  </div>
+
+  <h2>Rank 10</h2>
+  <div class="links">
+    <a href="R10/county_od_sankey.html">County Sankey</a>
+    <a href="R10/zip_od_sankey.html">ZIP Code Sankey</a>
   </div>
 
 </body>
